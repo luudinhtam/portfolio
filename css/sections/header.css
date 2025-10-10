@@ -64,19 +64,21 @@ header {
     flex: 1;
     flex-direction: column;
     align-items: end;
-    gap: 8px;
+    justify-content: center;
+    gap: 12px;
 }
 
 .header__img {
     border-radius: 100px;
-    width: 118px;
-    height: 118px;
+    /* Old size: 118 x 118 */
+    width: 200px;
+    height: 200px;
     box-shadow:
         inset 0px -1px 1px hsla(0, 0%, 100%, 0.5),
         0 4px 6px -1px hsla(0, 0%, 0%, 0.2),
         0 2px 4px -2px hsla(0, 0%, 0%, 0.2),
         inset 0px 1px 3px hsla(0, 0%, 0%, 0.1);
-    background-image: url('../../assets/avatar.jpg');
+    background-image: url('../../assets/avatar1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
